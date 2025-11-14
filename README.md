@@ -3,7 +3,7 @@ This report improves upon a Metropolis Hastings algorithm by implementing simula
 
 Final report included as `MCMC_and_Simulated_Annealing.pdf`.
 
-Folder `code25` includes the data used (the corpus), encrypted message, and python scripts used to run the experiment.
+`code25` includes the data used (the corpus), encrypted message, and python scripts used to run the experiment.
 
 To run the baseline Metropolis Hastings algorithm: `python3 run_deciphering.py -i data/warpeace_input.txt -d secret_message.txt`
 
