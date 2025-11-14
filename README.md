@@ -1,6 +1,10 @@
 # Message Decryption and TSP with Simulated Annealing
 This report improves upon a Metropolis Hastings algorithm by implementing simulated annealing to decrypt an encrypted message. The application is also generalized to the traveling salesman problem (TSP) known in optimization. 
 
+Final report included as "MCMC_and_Simulated_Annealing.pdf".
+
+Folder "code25" includes the data used (the corpus), encrypted message, and python scripts used to run the experiment.
+
 To run the baseline Metropolis Hastings algorithm: python3 run_deciphering.py -i data/warpeace_input.txt -d secret_message.txt
 
 To run the simulated annealing algorithm as was done in the report: python3 run_deciphering_sa.py -i data/warpeace_input.txt -d secret_message.txt -e 50000 -b 0.3 -a 0.995 -k 5000
